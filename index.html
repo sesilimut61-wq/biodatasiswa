@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biodata Chesilia - Spiderman</title>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Poppins',sans-serif;background:#0a0a0a;color:white;min-height:100vh;overflow-x:hidden}
+.bg{position:fixed;inset:0;z-index:-2;background:radial-gradient(circle at 20% 30%, #b30000 0%, transparent 40%),radial-gradient(circle at 80% 70%, #001a8a 0%, transparent 40%),#0a0a0a}
+.web{position:fixed;inset:0;z-index:-1;opacity:0.06;background-image:repeating-linear-gradient(0deg, transparent, transparent 40px, white 40px, white 41px),repeating-linear-gradient(90deg, transparent, transparent 40px, white 40px, white 41px)}
+.container{max-width:900px;margin:0 auto;padding:20px;position:relative;z-index:1}
+.header{text-align:center;padding:50px 20px 20px}
+.header h1{font-family:'Bangers',cursive;font-size:72px;letter-spacing:4px;color:#e62429;text-shadow:4px 4px 0 #000, -2px -2px 0 #fff;transform:rotate(-2deg)}
+.header h1 span{color:#1e90ff}
+.subtitle{margin-top:10px;font-size:16px;letter-spacing:3px;opacity:0.8}
+.card{margin:30px auto;background:linear-gradient(145deg, #1a1a1a, #0f0f0f);border:2px solid #e62429;border-radius:20px;padding:30px;box-shadow:0 0 30px rgba(230,36,41,0.3), inset 0 0 20px rgba(0,0,0,0.5);position:relative;overflow:hidden}
+.spider-icon{font-size:80px;text-align:center;margin-bottom:15px;animation:swing 2s infinite ease-in-out}
+@keyframes swing{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(5deg)}}
+.biodata{display:grid;gap:18px;margin-top:20px}
+.item{display:flex;align-items:center;background:rgba(255,255,255,0.05);border-left:4px solid #e62429;padding:16px 20px;border-radius:10px;transition:0.3s}
+.item:hover{background:rgba(230,36,41,0.15);transform:translateX(8px);border-left-color:#1e90ff}
+.item .label{width:100px;font-weight:700;color:#e62429;letter-spacing:1px}
+.item .sep{margin:0 10px;opacity:0.5}
+.item .value{font-weight:600}
+.footer{text-align:center;margin-top:40px;padding:20px;opacity:0.6;font-size:13px}
+.btn{display:inline-block;margin-top:25px;background:#e62429;color:white;padding:12px 28px;border-radius:30px;text-decoration:none;font-weight:700;letter-spacing:1px;box-shadow:0 5px 15px rgba(230,36,41,0.4);transition:0.3s}
+.btn:hover{background:#1e90ff;transform:translateY(-3px)}
+</style>
+</head>
+<body>
+<div class="bg"></div><div class="web"></div>
+<div class="container">
+<div class="header">
+<h1>SPIDER-<span>CHESILIA</span></h1>
+<div class="subtitle">BIODATA • X TKJ 1 • SMK BANJAR ASRI</div>
+</div>
+<div class="card">
+<div class="spider-icon">🕷️</div>
+<div class="biodata">
+<div class="item"><div class="label">NAMA</div><div class="sep">:</div><div class="value">Chesilia</div></div>
+<div class="item"><div class="label">SEKOLAH</div><div class="sep">:</div><div class="value">SMK Banjar Asri</div></div>
+<div class="item"><div class="label">KELAS</div><div class="sep">:</div><div class="value">X TKJ 1</div></div>
+<div class="item"><div class="label">ALAMAT</div><div class="sep">:</div><div class="value">Kp Peuris Girang RT3 RW11</div></div>
+</div>
+<div style="text-align:center"><a class="btn" href="#">🕸️ MY SPIDER-VERSE 🕸️</a></div>
+</div>
+<div class="footer">Made with 🕷️ by Chesilia - X TKJ 1 | SMK Banjar Asri<br>"With great power comes great responsibility"</div>
+</div>
+</body>
+</html>
